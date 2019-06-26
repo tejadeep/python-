@@ -1,0 +1,8 @@
+for r in range(7):
+    for c in range(6):
+        if ((c>=1 and c<5) and (r==0 or r==3 or r==6)) or ((c==0 and (r==1 or r==2)) or (c==5 and (r==4 or r==5))):
+            print("* ",end="")
+        else:
+            print(end="  ")
+    print()
+    
