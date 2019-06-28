@@ -1,0 +1,12 @@
+#python 3.5.2
+
+a=12
+b=18.34
+print (id(a),id(b))
+k=int(b)
+print (k)
+m=1+2j
+print (m)
+n=4+9j
+p=m*n
+print (p)
